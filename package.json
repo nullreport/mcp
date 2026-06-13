@@ -1,0 +1,44 @@
+{
+  "name": "nullreport-mcp",
+  "version": "0.1.1",
+  "description": "Local MCP server for NullReport: drive your self-hosted report generator from an AI client like Claude or Cursor.",
+  "type": "module",
+  "bin": {
+    "nullreport-mcp": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "nullreport",
+    "penetration-testing",
+    "report",
+    "ai"
+  ],
+  "homepage": "https://docs.nullreport.app/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nullreport/mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nullreport/mcp/issues"
+  },
+  "author": "NullReport",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
