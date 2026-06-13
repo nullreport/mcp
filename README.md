@@ -66,7 +66,7 @@ npm test
 
 ## Support
 
-Found a bug or want a feature? Email support@nullreport.app.
+Found a bug or want a feature? Open an issue at [nullreport/feedback](https://github.com/nullreport/feedback). For help, licensing, or anything private, email support@nullreport.app.
 
 ## License
 
